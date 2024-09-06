@@ -86,8 +86,8 @@ function App(){
         AllUnits = "78"
         // totalSites = {58}
         totalCommissioned = {55}
-        totalIntegrations = {54}
-        pendingIntegrations = {1}
+        totalIntegrations = {55}
+        pendingIntegrations = {0}
         EndToEndCompletion = {71}
 
       />
