@@ -68,9 +68,9 @@ function App(){
         PaviconAllocatedUnits = {10}
         // PaviconIssuedUnits = {10}
         PaviconCommissionedUnits = {10}
-        PaviconIdeanNetEcoIntegration = {9}
-        PaviconPendingIntegration ={1}
-        PaviconEndtoEndCompletion = {90}
+        PaviconIdeanNetEcoIntegration = {10}
+        PaviconPendingIntegration ={0}
+        PaviconEndtoEndCompletion = {100}
 
         // Tetranet
         Partner7 = "Tetranet"
