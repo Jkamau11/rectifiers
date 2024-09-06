@@ -88,7 +88,7 @@ function App(){
         totalCommissioned = {55}
         totalIntegrations = {54}
         pendingIntegrations = {1}
-        EndToEndCompletion = {69}
+        EndToEndCompletion = {71}
 
       />
       < RectfierUpgardes/>
