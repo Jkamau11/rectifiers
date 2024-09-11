@@ -22,8 +22,8 @@ function App(){
           // BlockChainIssuedUnits = {5}
           BlockChainCommissionedUnits = {5}
           BlockChainIdeanNetEcoIntegration = {5}
-          BlockChainPendingIntegration ={0}
-          BlockChainEndtoEndCompletion = {38}
+          // BlockChainPendingIntegration ={0}
+          // BlockChainEndtoEndCompletion = {38}
 
         // Broadcom
         Partner2 = "Broadcom"
@@ -31,8 +31,8 @@ function App(){
         // BroadcomChainIssuedUnits = {11}
         BroadcomCommissionedUnits = {11}
         BroadcomIdeanNetEcoIntegration = {11}
-        BroadcomPendingIntegration ={0}
-        BroadcomEndtoEndCompletion = {100}
+        // BroadcomPendingIntegration ={0}
+        // BroadcomEndtoEndCompletion = {100}
 
         // Camusat
         Partner3 = "Camusat"
@@ -40,8 +40,8 @@ function App(){
         // CamusatIssuedUnits = {7}
         CamusatCommissionedUnits = {6}
         CamusatIdeanNetEcoIntegration = {6}
-        CamusatPendingIntegration ={0}
-        CamusatEndtoEndCompletion = {86}
+        // CamusatPendingIntegration ={0}
+        // CamusatEndtoEndCompletion = {86}
 
         // Egypro
 
@@ -50,8 +50,8 @@ function App(){
         // EgyproIssuedUnits = {10}
         EgyproCommissionedUnits = {10}
         EgyproIdeanNetEcoIntegration = {10}
-        EgyproPendingIntegration ={0}
-        EgyproEndtoEndCompletion = {53}
+        // EgyproPendingIntegration ={0}
+        // EgyproEndtoEndCompletion = {53}
 
         //  Nextgen
 
@@ -60,8 +60,8 @@ function App(){
         // NextgenIssuedUnits = {4}
         NextgenCommissionedUnits = {4}
         NextgenIdeanNetEcoIntegration = {4}
-        NextgenPendingIntegration ={0}
-        NextgenEndtoEndCompletion = {57}
+        // NextgenPendingIntegration ={0}
+        // NextgenEndtoEndCompletion = {57}
 
         // Pavicon
         Partner6 = "Pavicon"
@@ -69,8 +69,8 @@ function App(){
         // PaviconIssuedUnits = {10}
         PaviconCommissionedUnits = {10}
         PaviconIdeanNetEcoIntegration = {10}
-        PaviconPendingIntegration ={0}
-        PaviconEndtoEndCompletion = {100}
+        // PaviconPendingIntegration ={0}
+        // PaviconEndtoEndCompletion = {100}
 
         // Tetranet
         Partner7 = "Tetranet"
@@ -78,8 +78,8 @@ function App(){
         // TetranetIssuedUnits = {11}
         TetranetCommissionedUnits = {10}
         TetranetIdeanNetEcoIntegration = {9}
-        TetranetPendingIntegration ={1}
-        TetranetEndtoEndCompletion = {82}
+        // TetranetPendingIntegration ={1}
+        // TetranetEndtoEndCompletion = {82}
 
         // totals
         lebel = "78 Sites"
@@ -87,8 +87,8 @@ function App(){
         // totalSites = {58}
         totalCommissioned = {55}
         totalIntegrations = {55}
-        pendingIntegrations = {0}
-        EndToEndCompletion = {71}
+        // pendingIntegrations = {0}
+        // EndToEndCompletion = {71}
 
       />
       < RectfierUpgardes/>
