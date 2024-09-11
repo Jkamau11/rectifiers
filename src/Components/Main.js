@@ -25,8 +25,8 @@ function Main(props){
                         {/* <td>{props.BlockChainIssuedUnits}</td> */}
                         <td>{props.BlockChainCommissionedUnits}</td>
                         <td>{props.BlockChainIdeanNetEcoIntegration}</td>
-                        <td>{props.BlockChainPendingIntegration}</td>
-                        <td>{props.BlockChainEndtoEndCompletion}%</td>
+                        <td>{props.BlockChainCommissionedUnits - props.BlockChainIdeanNetEcoIntegration}</td>
+                        <td>{((props.BlockChainIdeanNetEcoIntegration/props.BlockAllocatedUnits) * 100).toFixed(0)}%</td>
                     </tr>
                     <tr>
                     <td>2</td>
@@ -35,8 +35,8 @@ function Main(props){
                         {/* <td>{props.BroadcomChainIssuedUnits}</td> */}
                         <td>{props.BroadcomCommissionedUnits}</td>
                         <td>{props.BroadcomIdeanNetEcoIntegration}</td>
-                        <td>{props.BroadcomPendingIntegration}</td>
-                        <td>{props.BroadcomEndtoEndCompletion}%</td>
+                        <td>{props.BroadcomCommissionedUnits - props.BroadcomIdeanNetEcoIntegration}</td>
+                        <td>{((props.BroadcomIdeanNetEcoIntegration/props.BroadcomAllocatedUnits) * 100).toFixed(0)}%</td>
                     </tr>
                     <tr>
                         <td>3</td>
@@ -45,8 +45,8 @@ function Main(props){
                         {/* <td>{props.CamusatIssuedUnits}</td> */}
                         <td>{props.CamusatCommissionedUnits}</td>
                         <td>{props.CamusatIdeanNetEcoIntegration}</td>
-                        <td>{props.CamusatPendingIntegration}</td>
-                        <td>{props.CamusatEndtoEndCompletion}%</td>
+                        <td>{props.CamusatCommissionedUnits - props.CamusatIdeanNetEcoIntegration}</td>
+                        <td>{((props.CamusatIdeanNetEcoIntegration/props.CamusatAllocatedUnits) * 100).toFixed(0)}%</td>
                     </tr>
                     <tr>
                         <td>4</td>
@@ -55,8 +55,8 @@ function Main(props){
                         {/* <td>{props.EgyproIssuedUnits}</td> */}
                         <td>{props.EgyproCommissionedUnits}</td>
                         <td>{props.EgyproIdeanNetEcoIntegration}</td>
-                        <td>{props.EgyproPendingIntegration}</td>
-                        <td>{props.EgyproEndtoEndCompletion}%</td>
+                        <td>{props.EgyproCommissionedUnits - props.EgyproIdeanNetEcoIntegration}</td>
+                        <td>{((props.EgyproIdeanNetEcoIntegration/props.EgyproAllocatedUnits) * 100).toFixed(0)}%</td>
                     </tr>
                     <tr>
                         <td>5</td>
@@ -65,8 +65,8 @@ function Main(props){
                         {/* <td>{props.NextgenIssuedUnits}</td> */}
                         <td>{props.NextgenCommissionedUnits}</td>
                         <td>{props.NextgenIdeanNetEcoIntegration}</td>
-                        <td>{props.NextgenPendingIntegration}</td>
-                        <td>{props.NextgenEndtoEndCompletion}%</td>
+                        <td>{props.NextgenCommissionedUnits - props.NextgenIdeanNetEcoIntegration}</td>
+                        <td>{((props.NextgenIdeanNetEcoIntegration/props.NextgenAllocatedUnits) * 100).toFixed(0)}%</td>
                     </tr>
                     <tr>
                         <td>6</td>
@@ -75,8 +75,8 @@ function Main(props){
                         {/* <td>{props.PaviconIssuedUnits}</td> */}
                         <td>{props.PaviconCommissionedUnits}</td>
                         <td>{props.PaviconIdeanNetEcoIntegration}</td>
-                        <td>{props.PaviconPendingIntegration}</td>
-                        <td>{props.PaviconEndtoEndCompletion}%</td>
+                        <td>{props.PaviconCommissionedUnits - props.PaviconIdeanNetEcoIntegration}</td>
+                        <td>{((props.PaviconIdeanNetEcoIntegration/props.PaviconAllocatedUnits) * 100).toFixed(0)}%</td>
                     </tr>
                     <tr>
                         <td>7</td>
@@ -85,8 +85,8 @@ function Main(props){
                         {/* <td>{props.TetranetIssuedUnits}</td> */}
                         <td>{props.TetranetCommissionedUnits}</td>
                         <td>{props.TetranetIdeanNetEcoIntegration}</td>
-                        <td>{props.TetranetPendingIntegration}</td>
-                        <td>{props.TetranetEndtoEndCompletion}%</td>
+                        <td>{props.TetranetCommissionedUnits - props.TetranetIdeanNetEcoIntegration}</td>
+                        <td>{((props.TetranetIdeanNetEcoIntegration/props.TetranetAllocatedUnits) * 100).toFixed(0)}%</td>
                     </tr>
                     <tr className="last-table-row">
                         <td colspan="2">{props.lebel}</td>
@@ -94,8 +94,8 @@ function Main(props){
                         {/* <td>{props.totalSites}</td> */}
                         <td>{props.totalCommissioned}</td>
                         <td>{props.totalIntegrations}</td>
-                        <td>{props.pendingIntegrations}</td>
-                        <td>{props.EndToEndCompletion}%</td>
+                        <td>{props.totalCommissioned - props.totalIntegrations}</td>
+                        <td>{((props.totalIntegrations/props.AllUnits) * 100).toFixed(0)}%</td>
                     </tr>
             </table>
 </div>
