@@ -85,8 +85,8 @@ function App(){
         lebel = "78 Sites"
         AllUnits = "78"
         // totalSites = {58}
-        totalCommissioned = {60}
-        totalIntegrations = {57}
+        totalCommissioned = {55}
+        totalIntegrations = {55}
         // pendingIntegrations = {0}
         // EndToEndCompletion = {71}
 
