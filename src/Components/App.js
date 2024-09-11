@@ -76,7 +76,7 @@ function App(){
         Partner7 = "Tetranet"
         TetranetAllocatedUnits = {11}
         // TetranetIssuedUnits = {11}
-        TetranetCommissionedUnits = {10}
+        TetranetCommissionedUnits = {9}
         TetranetIdeanNetEcoIntegration = {9}
         // TetranetPendingIntegration ={1}
         // TetranetEndtoEndCompletion = {82}
