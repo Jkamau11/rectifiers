@@ -26,7 +26,7 @@ function Main(props){
                         <td>{props.BlockChainCommissionedUnits}</td>
                         <td>{props.BlockChainIdeanNetEcoIntegration}</td>
                         <td>{props.BlockChainPendingIntegration}</td>
-                        <td>{props.BlockChainEndtoEndCompletion}%</td>
+                        <td>{((props.BlockChainIdeanNetEcoIntegration/props.BlockAllocatedUnits) * 100).toFixed(0)}%</td>
                     </tr>
                     <tr>
                     <td>2</td>
