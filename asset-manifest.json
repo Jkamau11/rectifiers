@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/rectifiers/static/css/main.755b47dc.css",
-    "main.js": "/rectifiers/static/js/main.e1c8d58c.js",
+    "main.js": "/rectifiers/static/js/main.25d18278.js",
     "static/js/453.d87898b0.chunk.js": "/rectifiers/static/js/453.d87898b0.chunk.js",
     "static/media/safaricom-logo2.webp": "/rectifiers/static/media/safaricom-logo2.44c7fd8da5e0f4983800.webp",
     "index.html": "/rectifiers/index.html",
     "main.755b47dc.css.map": "/rectifiers/static/css/main.755b47dc.css.map",
-    "main.e1c8d58c.js.map": "/rectifiers/static/js/main.e1c8d58c.js.map",
+    "main.25d18278.js.map": "/rectifiers/static/js/main.25d18278.js.map",
     "453.d87898b0.chunk.js.map": "/rectifiers/static/js/453.d87898b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.755b47dc.css",
-    "static/js/main.e1c8d58c.js"
+    "static/js/main.25d18278.js"
   ]
 }
