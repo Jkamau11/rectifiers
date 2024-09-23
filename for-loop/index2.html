@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Partners</title>
+</head>
+<body>
+    <!-- Input Field for User Input -->
+    <input type="text" id="userInput" placeholder="Enter Partner name or 'all'">
+    <button onclick="filterPartners()">Search</button>
+    
+    <!-- Table to Display the Results -->
+    <table border="1" id="resultsTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Partner</th>
+                <th>Issued Units</th>
+                <th>Commissioned Units</th>
+                <th>IdeanNet Eco Integration</th>
+                <th>Pending Integration</th>
+                <th>Partner End-to-End Completion</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            <!-- Results will be injected here -->
+        </tbody>
+    </table>
+
+    <script>
+        // Sample Data Array
+        const Partners = [
+            { id: 1, Partner: "Blockchain", IssuedUnits: 5, CommissionedUnits: 5, IdeanNetEcoIntegration: 5, PendingIntegration: 0, PartnerEndtoEndCompletion: 100 },
+            { id: 2, Partner: "Broadcom", IssuedUnits: 11, CommissionedUnits: 11, IdeanNetEcoIntegration: 11, PendingIntegration: 0, PartnerEndtoEndCompletion: 100 },
+            { id: 3, Partner: "Camusat", IssuedUnits: 7, CommissionedUnits: 6, IdeanNetEcoIntegration: 3, PendingIntegration: 3, PartnerEndtoEndCompletion: 43 },
+            { id: 4, Partner: "Egypro", IssuedUnits: 10, CommissionedUnits: 10, IdeanNetEcoIntegration: 10, PendingIntegration: 0, PartnerEndtoEndCompletion: 100 },
+            { id: 5, Partner: "Nextgen", IssuedUnits: 4, CommissionedUnits: 4, IdeanNetEcoIntegration: 4, PendingIntegration: 0, PartnerEndtoEndCompletion: 100 },
+            { id: 6, Partner: "Pavicon", IssuedUnits: 10, CommissionedUnits: 8, IdeanNetEcoIntegration: 7, PendingIntegration: 1, PartnerEndtoEndCompletion: 70 },
+            { id: 7, Partner: "Tetranet", IssuedUnits: 10, CommissionedUnits: 8, IdeanNetEcoIntegration: 8, PendingIntegration: 0, PartnerEndtoEndCompletion: 73 }
+        ];
+
+        // Function to Filter and Display Partners
+        function filterPartners() {
+            const input = document.getElementById('userInput').value.trim().toLowerCase();
+            let filteredPartners;
+
+            // Check if input is 'all', or a specific partner name
+            if (input === 'all') {
+                filteredPartners = Partners; // Show all partners
+            } else {
+                // Filter partners by the input name
+                filteredPartners = Partners.filter(partner => partner.Partner.toLowerCase().includes(input));
+            };
+
+            // Clear the table body before injecting new rows
+            const tableBody = document.getElementById('tableBody');
+            tableBody.innerHTML = '';
+
+            // If no partners found, display a message
+            if (filteredPartners.length === 0) {
+                tableBody.innerHTML = `<tr><td colspan="7">No partners found</td></tr>`;
+                return;
+            }
+
+            // Dynamically create table rows for each filtered partner
+            filteredPartners.forEach(partner => {
+                const row = `<tr>
+                    <td>${partner.id}</td>
+                    <td>${partner.Partner}</td>
+                    <td>${partner.IssuedUnits}</td>
+                    <td>${partner.CommissionedUnits}</td>
+                    <td>${partner.IdeanNetEcoIntegration}</td>
+                    <td>${partner.PendingIntegration}</td>
+                    <td>${partner.PartnerEndtoEndCompletion}</td>
+                </tr>`;
+                tableBody.innerHTML += row;
+            });
+        }
+    </script>
+</body>
+</html>

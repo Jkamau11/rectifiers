@@ -3,6 +3,7 @@ import React from "react";
 import NavBar from "./Navabar";
 
 import Main from "./Main"
+
 import "../Styles/main.css"
 
 import Footer from "./Footer";
@@ -20,8 +21,8 @@ function App(){
           Partner1 = "Blockchain"
           BlockAllocatedUnits = {13}
           // BlockChainIssuedUnits = {5}
-          BlockChainCommissionedUnits = {5}
-          BlockChainIdeanNetEcoIntegration = {5}
+          BlockChainCommissionedUnits = {9}
+          BlockChainIdeanNetEcoIntegration = {6}
           // BlockChainPendingIntegration ={0}
           // BlockChainEndtoEndCompletion = {38}
 
@@ -48,8 +49,8 @@ function App(){
         Partner4 = "Egypro"
         EgyproAllocatedUnits = {19}
         // EgyproIssuedUnits = {10}
-        EgyproCommissionedUnits = {10}
-        EgyproIdeanNetEcoIntegration = {10}
+        EgyproCommissionedUnits = {17}
+        EgyproIdeanNetEcoIntegration = {17}
         // EgyproPendingIntegration ={0}
         // EgyproEndtoEndCompletion = {53}
 
@@ -58,8 +59,8 @@ function App(){
         Partner5 = "Nextgen"
         NextgenAllocatedUnits = {7}
         // NextgenIssuedUnits = {4}
-        NextgenCommissionedUnits = {4}
-        NextgenIdeanNetEcoIntegration = {4}
+        NextgenCommissionedUnits = {7}
+        NextgenIdeanNetEcoIntegration = {7}
         // NextgenPendingIntegration ={0}
         // NextgenEndtoEndCompletion = {57}
 
@@ -76,8 +77,8 @@ function App(){
         Partner7 = "Tetranet"
         TetranetAllocatedUnits = {11}
         // TetranetIssuedUnits = {11}
-        TetranetCommissionedUnits = {9}
-        TetranetIdeanNetEcoIntegration = {9}
+        TetranetCommissionedUnits = {10}
+        TetranetIdeanNetEcoIntegration = {10}
         // TetranetPendingIntegration ={1}
         // TetranetEndtoEndCompletion = {82}
 
@@ -85,11 +86,10 @@ function App(){
         lebel = "78 Sites"
         AllUnits = "78"
         // totalSites = {58}
-        totalCommissioned = {55}
-        totalIntegrations = {55}
+        totalCommissioned = {70}
+        totalIntegrations = {67}
         // pendingIntegrations = {0}
         // EndToEndCompletion = {71}
-
       />
       < RectfierUpgardes/>
       < Footer />
